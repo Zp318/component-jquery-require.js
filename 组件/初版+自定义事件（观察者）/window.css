@@ -1,0 +1,57 @@
+.boundingBox{
+	width: 500px;
+	height: 300px;
+	background: orange;
+	position: absolute;
+	border: solid 1px #000;
+	left: 50%;
+	top: 50%;
+	box-shadow: 0 0 12px rgba(0,0,0,0.5);
+	z-index: 2;
+}
+
+.boundingBox_header{
+	background: #333;
+	color: #fff;
+	padding: 5px;
+	font-size: 20px;
+	text-align: center;
+}
+
+input.confirmBtn {
+    float: left;
+    width: 100px;
+    position: absolute;
+    left:50%;
+    margin-left: -50px;
+    bottom: 10px;
+}
+
+.closeBtn{
+	position: absolute;
+	top: 0;
+	right:0;
+	color: #fff;
+	padding: 5px 10px;
+	font-size: 20px;
+	cursor: pointer;
+}
+
+
+/*my skin 'skin_a' */
+.skin_a.boundingBox{
+	background: red;
+}
+
+.skin_a.boundingBox .boundingBox_header{
+	background: green;
+}
+
+.mask{
+	width: 100%;
+	height: 100%;
+	background: rgba(160,160,160,0.5);
+	position: absolute;
+	left: 0;
+	top: 0;
+}

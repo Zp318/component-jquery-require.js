@@ -1,0 +1,11 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+#a,#b,#c,#d{
+	width: 100px;
+	height: 25px;
+	line-height: 25px;
+	text-align: center;
+}
